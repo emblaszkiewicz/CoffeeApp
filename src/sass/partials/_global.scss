@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-main;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-one {
+  width: 246px;
+  height: 83px;
+  border: none;
+  background-color: $color-one;
+}

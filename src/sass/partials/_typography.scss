@@ -1,0 +1,90 @@
+.page-slogan {
+  font-size: 100px;
+  letter-spacing: 20px;
+  font-weight: $font-bold;
+  color: $color-one;
+  text-transform: uppercase;
+  margin: -20px 0;
+}
+
+.logo-name {
+  font-size: 36px;
+  letter-spacing: 12px;
+  font-weight: $font-bold;
+  color: $color-wht;
+  text-transform: uppercase;
+}
+
+.logo-subtitle {
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: $font-bold;
+  color: $color-wht;
+  text-transform: uppercase;
+  margin-top: -36px;
+}
+
+.section-title {
+  font-size: 74px;
+  letter-spacing: 16px;
+  font-weight: $font-bold;
+  color: $color-one;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    width: 777px;
+    height: 6px;
+    background: $color-one;
+    bottom: -46px;
+  }
+}
+
+.product-name {
+  font-size: 48px;
+  letter-spacing: 4px;
+  font-weight: $font-bold;
+  color: $color-blk;
+  text-transform: uppercase;
+  margin-top: 67px;
+}
+
+.product-description {
+  font-size: 16px;
+  font-weight: $font-regular;
+  color: $color-blk;
+}
+
+.product-info,
+.product-info-param {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: $font-black;
+  color: $color-blk;
+  text-transform: uppercase;
+}
+
+.product-info-param {
+  color: $color-one;
+}
+
+.about-info {
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-weight: $font-semibold-italic;
+  color: $color-wht;
+}
+
+.form-txt {
+  font-family: $font-main;
+  font-size: 30px;
+  letter-spacing: 6px;
+  font-weight: $font-bold;
+  color: $color-wht;
+  text-transform: uppercase;
+}
