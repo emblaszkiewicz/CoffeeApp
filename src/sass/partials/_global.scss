@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+#pages {
+  > * {
+    display: none;
+  }
+  
+  > .active {
+    display: block;
+  }
+}
+
 body {
   margin: 0;
   font-family: $font-main;
@@ -13,8 +23,16 @@ body {
 }
 
 .button-one {
+  font-family: $font-main;
+  font-weight: $font-bold;
+  font-size: 30px;
+  letter-spacing: 6px;
+  text-indent: 6px;
+  text-transform: uppercase;
   width: 246px;
   height: 83px;
   border: none;
   background-color: $color-one;
+  color: $color-wht;
+  margin-top: 48px;
 }

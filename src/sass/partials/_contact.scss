@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  
+    input, textarea {
+      border: solid 3px $color-blk;
+      width: 530px;
+      height: 76px;
+      font-size: 16px;
+  
+      &:focus {
+        outline: 0;
+      }
+    }
+  
+    textarea {
+      height: 154px;
+      resize: none;
+    }
+  }
