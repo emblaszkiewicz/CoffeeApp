@@ -4,6 +4,7 @@ export const select = {
   },
   containerOf: {
     pages: '#pages',
+    home: '.home-wrapper',
     products: '.products-wrapper',
   },
   nav: {

@@ -20,6 +20,15 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 58px;
+  margin: 85px 0;
 }
 
 .button-one {

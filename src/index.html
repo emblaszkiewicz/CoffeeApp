@@ -35,9 +35,20 @@
   </header>
 
   <div id="pages">
+
     <section id="home">
+      <h1 class="section-title">Products</h1>
       <div class="home-wrapper"></div>
+      <section class="about">
+        <div class="container">
+          <h1 class="section-title">About us</h1>
+          <p class="about-info">Who are we? Just a bunch of friends with a love for a good coffee and desire to create something new, something original.</p>
+          <p class="about-info">Our coffees reflect us - young, wild and free.<br>We are on the journey of new tastes...</p>
+          <p class="about-info">Join us!</p>
+        </div>
+      </section>
     </section>
+
     <section id="products">
       <div id="products-wrapper"></div>
     </section>
@@ -47,11 +58,11 @@
         <h1 class="section-title">Contact us</h1>
         <form class="contact">
           <p class="form-txt">Name</p>
-          <input type="text" required>
+          <input id="name" type="text" required>
           <p class="form-txt">Title</p>
-          <input type="text" required>
+          <input id="title" type="text" required>
           <p class="form-txt">Message</p>
-          <textarea rows="10" required></textarea>
+          <textarea id="message" rows="10" required></textarea>
           <button type="submit" class="button-one">Submit</button>
         </form>
       </div>
@@ -63,8 +74,21 @@
   <p>&copy; 2021 EL TIGRE inc.</p>
 </footer>
 
-  <script id="template-products" type="text/x-handlebars-template">
-  </script>
+<script id="template-products" type="text/x-handlebars-template">
+  <article class="row">
+    <div class="prod-desc">
+      <h2 class="product-name">0{{ id }}. {{ name }}</h2>
+      <p class="product-description">{{ description }}</p>
+      <p class="product-info">
+        <span>Roasting: </span><span class="product-info-param">{{ roasting }}<br></span>
+        <span>Intensity: </span><span class="product-info-param">{{ intensity }}</span>
+      </p>
+    </div>
+    <div class="prod-img">
+      {{{ image }}}
+    </div>
+  </article>
+</script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
   <script src="js/app.js" type="module"></script>
