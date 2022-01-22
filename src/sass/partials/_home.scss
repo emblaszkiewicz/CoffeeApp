@@ -2,6 +2,7 @@
   .prod-desc {
     width: 553px;
     height: 422px;
+    position: relative;
 
     .product-description {
       margin-left: 140px;
@@ -11,6 +12,12 @@
 
     .product-info {
       margin-top: 59px;
+    }
+
+    .badge {
+      position: absolute;
+      right: 45px;
+      bottom: 0;
     }
   }
 
@@ -57,6 +64,7 @@
   .row {
     .prod-desc {
       width: 300px;
+      margin-top: -85px;
 
       .product-description {
         margin: 60px 0;
@@ -83,6 +91,15 @@
 }
 
 @media (max-width: 1081px) {
+  .row .prod-desc .badge {
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+
+    img {
+      width: 120px;
+    }
+  }
   .row:nth-child(2) .prod-desc {
     padding-left: 0;
   }

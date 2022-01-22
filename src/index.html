@@ -52,6 +52,7 @@
     </section>
 
     <section id="products">
+      <h1 class="section-title">Products</h1>
       <div class="products-wrapper"></div>
     </section>
 
@@ -85,9 +86,10 @@
         <span>Roasting: </span><span class="product-info-param">{{ roasting }}<br></span>
         <span>Intensity: </span><span class="product-info-param">{{ intensity }}</span>
       </p>
+      <div class="badge">{{{ image.[1] }}}</div>
     </div>
     <div class="prod-img">
-      {{{ image }}}
+      {{{ image.[0] }}}
     </div>
   </article>
 </script>
