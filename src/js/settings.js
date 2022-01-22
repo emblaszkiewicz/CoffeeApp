@@ -9,6 +9,8 @@ export const select = {
   },
   nav: {
     links: '.main-nav a',
+    hamburger: '.hamburger',
+    ul: '.main-nav ul',
   },
   links: {
     arrow: '.discover a',

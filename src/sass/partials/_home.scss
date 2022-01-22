@@ -1,5 +1,4 @@
 .row {
-
   .prod-desc {
     width: 553px;
     height: 422px;
@@ -31,7 +30,7 @@
     }
 
     .product-description {
-      padding-right: 20px
+      padding-right: 20px;
     }
   }
 }
@@ -73,10 +72,18 @@
       padding-left: 0;
     }
   }
+
   .about {
     padding-bottom: 60px;
+
     p {
       padding: 0 30px;
     }
+  }
+}
+
+@media (max-width: 1081px) {
+  .row:nth-child(2) .prod-desc {
+    padding-left: 0;
   }
 }

@@ -54,6 +54,16 @@ const app = {
     }
   },
 
+  initActions: function(){
+    const hamburger = document.querySelector(select.nav.hamburger);
+    const naviLinks = document.querySelector(select.nav.ul);
+
+    hamburger.addEventListener('click', function(event){
+      event.preventDefault();
+      naviLinks.classList.toggle(classNames.nav.active);
+    });
+  },
+
   initData: function(){
     const thisApp = this;
 
@@ -72,6 +82,7 @@ const app = {
   init: function(){
     const thisApp = this;
 
+    thisApp.initActions();
     thisApp.initPages();
     thisApp.initData();
   },
