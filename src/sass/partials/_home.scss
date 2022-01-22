@@ -48,15 +48,27 @@
   background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/about-us.jpg') no-repeat;
   background-size: cover;
 
-  p {
-    font-weight: $font-semibold;
-    font-style: italic;
-    padding: 0 320px 0 140px;
-  }
+  .carousel-cell {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
-  p:nth-child(4){
-    text-align: right;
-    padding: 0 80px 0 0;
+    .carousel-txt {
+      width: 450px;
+      margin: 0 50px;
+    }
+
+    img {
+      width: 277px;
+      height: 276px;
+    }
+
+    .worker-name {
+
+      span {
+        font-weight: $font-regular;
+      }
+    }
   }
 }
 
@@ -84,8 +96,23 @@
   .about {
     padding-bottom: 60px;
 
-    p {
-      padding: 0 30px;
+    .main-carousel .carousel-cell {
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .carousel-txt {
+        margin: 0;
+        text-align: center;
+
+        p {
+          padding: 0 50px;
+        }
+      }
     }
   }
 }

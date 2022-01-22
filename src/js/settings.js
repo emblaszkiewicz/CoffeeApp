@@ -6,6 +6,7 @@ export const select = {
     pages: '#pages',
     home: '.home-wrapper',
     products: '.products-wrapper',
+    pageTitle: '.hero-inner',
   },
   nav: {
     links: '.main-nav a',

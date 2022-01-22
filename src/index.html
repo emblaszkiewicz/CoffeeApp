@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/flickity.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,8 +28,7 @@
       </div>
     </nav>
     <div class="hero-inner">
-      <h1 class="page-slogan">Home of</h1>
-      <h1 class="page-slogan">Original tastes</h1>
+      <h1 class="page-slogan">Home of</h1><h1 class="page-slogan">Original tastes</h1>
     </div>
     <div class="discover">
       <p>Discover</p>
@@ -44,9 +44,29 @@
       <section class="about">
         <div class="container">
           <h1 class="section-title">About us</h1>
-          <p class="about-info">Who are we? Just a bunch of friends with a love for a good coffee and desire to create something new, something original.</p>
-          <p class="about-info">Our coffees reflect us - young, wild and free.<br>We are on the journey of new tastes...</p>
-          <p class="about-info">Join us!</p>
+          <div class="main-carousel" data-flickity='{ "autoPlay": 5000, "contain": true, "prevNextButtons": false, "wrapAround": true, "draggable": false, "pageDots": false}'>
+            <div class="carousel-cell">
+              <img src="images/1.png" alt="worker-1">
+              <div class="carousel-txt">
+                <h3 class="worker-name"><span>Ping</span> Nihao</h3>
+                <p class="worker-info">Ping is the youngest in the team. He doesn't like calling coffee a mysterious act. He says, a godd coffee is like a mathematical formula. Once you figured it out, every coffee you make is a masterpiece.</p>
+              </div> 
+            </div>
+            <div class="carousel-cell">
+              <img src="images/2.png" alt="worker-2">
+              <div class="carousel-txt">
+                <h3 class="worker-name"><span>Max</span> Selfish</h3>
+                <p class="worker-info">Max is the austrian barista with years of experience from the hotels across the whole Europe. "Venezuela coffee was a lightening experience from me! I have never drink such an amazing coffee!", he says.</p>
+              </div>   
+            </div>
+            <div class="carousel-cell">
+              <img src="images/3.png" alt="worker-3">
+              <div class="carousel-txt">
+                <h3 class="worker-name"><span>Elizabeth</span> Doherty</h3>
+                <p class="worker-info">Experienced barista from Bahamas. She says that Venezuela has opened her eyes on coffee. "It's not about the taste", she says. "It's all about the feelings".</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </section>
@@ -95,6 +115,7 @@
 </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+  <script src="vendor/flickity.pkgd.min.js"></script>
   <script src="js/app.js" type="module"></script>
 </body>
 </html>

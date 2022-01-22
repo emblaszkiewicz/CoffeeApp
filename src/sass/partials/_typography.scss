@@ -16,7 +16,7 @@
 }
 
 .logo-subtitle {
-  font-size: 16px;
+  font-size: $base-size;
   letter-spacing: 5px;
   font-weight: $font-bold;
   color: $color-wht;
@@ -76,7 +76,7 @@
 }
 
 .product-description {
-  font-size: 16px;
+  font-size: $base-size;
   font-weight: $font-regular;
   color: $color-blk;
   line-height: 1.5;
@@ -97,11 +97,17 @@
   color: $color-one;
 }
 
-.about-info {
-  font-size: 38px;
+.worker-name {
+  font-size: 26px;
   letter-spacing: 1px;
-  font-weight: $font-semibold;
   color: $color-wht;
+}
+
+.worker-info {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: $color-wht;
+  font-style: italic;
 }
 
 .form-txt {
@@ -115,7 +121,7 @@
 }
 
 footer {
-  font-family: 16px;
+  font-family: $font-main;
   font-weight: $font-semibold;
   text-align: center;
 }
@@ -126,7 +132,7 @@ footer {
   }
 
   .discover {
-    font-size: 16px;
+    font-size: $base-size;
 
     p {
       display: none;
@@ -149,14 +155,14 @@ footer {
 
   .product-info,
   .product-info-param {
-    font-size: 16px;
+    font-size: $base-size;
   }
 
   .about {
     padding-bottom: 60px;
 
     .about-info {
-      font-size: 16px;
+      font-size: $base-size;
     }
   }
 

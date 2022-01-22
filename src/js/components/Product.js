@@ -8,8 +8,6 @@ class Product{
     thisProduct.id = id;
     thisProduct.data = data;
     thisProduct.render();
-
-    console.log(thisProduct);
   }
 
   render(){
