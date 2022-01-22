@@ -17,7 +17,7 @@
       margin-left: -150px;
     }
 
-    h1:nth-child(2){
+    h1:nth-child(2) {
       margin-right: -125px;
     }
 
@@ -72,5 +72,23 @@
     width: 39px;
     height: 39px;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+
+    .hero-inner {
+      text-align: center;
+
+      h1:nth-child(1),
+      h1:nth-child(2) {
+        margin: 15px;
+      }
+    }
+  }
+  .discover img {
+    width: 24px;
+    height: 24px;
   }
 }

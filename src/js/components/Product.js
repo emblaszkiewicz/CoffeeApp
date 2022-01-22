@@ -8,8 +8,6 @@ class Product{
     thisProduct.id = id;
     thisProduct.data = data;
     thisProduct.render();
-    
-    console.log(thisProduct);
   }
 
   render(){
@@ -19,6 +17,10 @@ class Product{
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);
     const homeContainer = document.querySelector(select.containerOf.home);
     homeContainer.appendChild(thisProduct.element);
+
+    thisProduct.element = utils.createDOMFromHTML(generatedHTML);
+    const homeProducts = document.querySelector(select.containerOf.products);
+    homeProducts.appendChild(thisProduct.element);
   }
 }
 

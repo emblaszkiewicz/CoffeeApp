@@ -10,6 +10,9 @@ export const select = {
   nav: {
     links: '.main-nav a',
   },
+  links: {
+    arrow: '.discover a',
+  }
 };
 
 export const classNames = {
