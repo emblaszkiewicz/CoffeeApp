@@ -9,10 +9,10 @@
             "old-price": "36",
             "new-price": "25",
             "image":[
-                "<img src=\"images/coffee-1.png\" alt=\"coffee-1\">"
+                "<img src=\"images/coffee-1.webp\" alt=\"coffee-1\">"
             ],
             "badge-image":[
-                "<img src=\"images/badge.png\" alt=\"badge\">"
+                "<img src=\"images/badge.webp\" alt=\"badge\">"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "old-price": "49",
             "new-price": "39",
             "image":[
-                "<img src=\"images/coffee-2.png\" alt=\"coffee-2\">"
+                "<img src=\"images/coffee-2.webp\" alt=\"coffee-2\">"
             ],
             "badge-image":[]
         },
@@ -37,7 +37,7 @@
             "old-price": "29",
             "new-price": "14",
             "image":[
-                "<img src=\"images/coffee-3.png\" alt=\"coffee-3\">"
+                "<img src=\"images/coffee-3.webp\" alt=\"coffee-3\">"
             ],
             "badge-image":[]
         }
