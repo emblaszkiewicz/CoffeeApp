@@ -12,6 +12,7 @@
     position: absolute;
     top: 45%;
     transform: translateY(-45%);
+    display: none;
 
     h1:nth-child(1) {
       margin-left: -150px;
@@ -30,6 +31,10 @@
       height: 6px;
       background: $color-one;
       bottom: -76px;
+    }
+
+    &.active {
+      display: block;
     }
   }
 }

@@ -24,6 +24,9 @@ export const classNames = {
   },
   pages: {
     active: 'active',
+  },
+  hero: {
+    active: 'active',
   }
 };
 

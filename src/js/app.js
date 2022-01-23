@@ -64,6 +64,12 @@ const app = {
     });
   },
 
+  randomTitle: function(){
+    const titles = document.querySelectorAll(select.containerOf.pageTitle);
+    const title = titles[Math.floor(Math.random() * titles.length)];
+    title.classList.add(classNames.hero.active);
+  },
+
   initData: function(){
     const thisApp = this;
 
@@ -83,6 +89,7 @@ const app = {
     const thisApp = this;
 
     thisApp.initActions();
+    thisApp.randomTitle();
     thisApp.initPages();
     thisApp.initData();
   },
