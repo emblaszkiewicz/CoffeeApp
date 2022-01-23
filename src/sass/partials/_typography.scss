@@ -97,6 +97,18 @@
   color: $color-one;
 }
 
+.old-price {
+  font-size: 20px;
+  color: $color-wht;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 40px;
+  font-weight: $font-bold;
+  color: $color-wht;
+}
+
 .worker-name {
   font-size: 26px;
   letter-spacing: 1px;
