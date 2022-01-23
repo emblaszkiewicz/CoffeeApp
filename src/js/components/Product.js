@@ -12,7 +12,6 @@ class Product{
 
   render(){
     const thisProduct = this;
-    console.log(thisProduct);
 
     const generatedHTML = templates.products(thisProduct.data);
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);

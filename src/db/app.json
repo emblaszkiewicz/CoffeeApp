@@ -9,7 +9,9 @@
             "old-price": "36",
             "new-price": "25",
             "image":[
-                "<img src=\"images/coffee-1.png\" alt=\"coffee-1\">",
+                "<img src=\"images/coffee-1.png\" alt=\"coffee-1\">"
+            ],
+            "badge-image":[
                 "<img src=\"images/badge.png\" alt=\"badge\">"
             ]
         },
@@ -23,7 +25,8 @@
             "new-price": "39",
             "image":[
                 "<img src=\"images/coffee-2.png\" alt=\"coffee-2\">"
-            ]
+            ],
+            "badge-image":[]
         },
         {
             "id": 3,
@@ -35,7 +38,8 @@
             "new-price": "14",
             "image":[
                 "<img src=\"images/coffee-3.png\" alt=\"coffee-3\">"
-            ]
+            ],
+            "badge-image":[]
         }
     ]
 }
